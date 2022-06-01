@@ -14,6 +14,10 @@ test("handle page not found", async ()=>{
     expect(respons.status).toEqual(404);
     
 })
+test("handle bad method", async () =>{
+    const respons = await request.post("/person?name=name")
+    expect(respons.status).toEqual(404);
+})
 
 test("Handle server error", async ()=>{
     const respons = await request.get('/person?1')
