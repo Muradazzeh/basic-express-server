@@ -9,6 +9,11 @@ describe("logger test", ()=>{
 
     beforeEach(()=>{
         consoleSpy=jest.spyOn(console,"log")
+        // .mockImplementation(
+        //             () => {
+        //                 console.error('this error from the mockImplementation')
+        //             }
+        //         );
     })
 
     test('Somthing happen in the console', () => { 
@@ -19,5 +24,8 @@ describe("logger test", ()=>{
          expect(next).toHaveBeenCalled();
 
      } )
+//         afterEach(() => {
+//         consoleSpy.mockRestore();
+// })
 
 })

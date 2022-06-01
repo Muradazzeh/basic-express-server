@@ -53,3 +53,12 @@ app.get("/",(req,res)=>{
 
 * and finally I applied jest test for all 
 ![link](./Src/taskImage/Screenshot%20(149).png)
+
+* Here the image for deployed server in heroku the main page 
+![link](./Src/taskImage/Screenshot%20(151).png)
+
+*  this after pushing the app to Github and the CI test shows 
+![link](./Src/taskImage/Screenshot%20(150).png)
+
+
+
