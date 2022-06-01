@@ -1,8 +1,12 @@
 # basic-express-server
 **This is the links for my work**
-* 
-* 
-* 
+*  this is the link for pull request [link for pull request](https://github.com/Muradazzeh/basic-express-server/pull/1)
+
+* this is the heroku main page link deployed server [link](https://basic-express-server-main.herokuapp.com/) , if you use query at "/person" route ?name=Murad , it will show you the {name:Murad}, and if you put name 1111 it will give server error  .
+
+* git hub action link [link for git hub action](https://github.com/Muradazzeh/basic-express-server/actions)
+
+* the main link for repo[link for main repo](https://github.com/Muradazzeh/basic-express-server)
 
 
 ## what I learned from the class2 
